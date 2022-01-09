@@ -1,3 +1,6 @@
 
-user = 'xxxx@xxxxxxxx.xxx'
-password = 'xxxxxxxxxxx'
+#####################################
+#   CREDENCIAIS P/ LOGIN AQUI
+#####################################
+user = 'xxxxxxx@xxxxx.xxx'
+password = 'xxxxxxxxx'

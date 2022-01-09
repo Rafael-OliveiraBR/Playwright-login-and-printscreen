@@ -22,8 +22,12 @@ from account import *
 #   SETUP DO BROWSER, EXECUÇÃO DAS AUTOMAÇÕES
 ###########################################################
 with sync_playwright() as p:
+    """ Executa com o browser aberto, faz um vídeo da execução"""
     browser = p.chromium.launch(headless=False, slow_mo=100)
-    context = browser.new_context()
+    context = browser.new_context(
+        record_video_dir="videos/",
+        record_video_size={"width": 640, "height": 480}
+    )
     page = context.new_page()
     page.goto('https://github.com')
 
@@ -55,3 +59,5 @@ with sync_playwright() as p:
     # Cria um novo context com os dados salvos.
     context = browser.new_context(storage_state="state.json")
 
+    # fecha browser
+    context.close()
