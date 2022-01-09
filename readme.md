@@ -1,6 +1,6 @@
 # Playwright Login and Screenshot
 
-Este é um exemplo de Script manual para automação de login e execução de printscreen de páginas web usando a biblioteca playwright.
+Este é um exemplo de Script para automação de login e execução de printscreen de páginas web usando a biblioteca playwright.
 
 ## Estrutura de execução
 - Acessa a página (Github)
