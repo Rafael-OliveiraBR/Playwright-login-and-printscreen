@@ -8,7 +8,7 @@ Este é um exemplo de Script manual para automação de login e execução de pr
 - Insere os dados de login nos campos
 - Clica no botão login
 - Clica no dropdown menu
-- Vai até a página do usuário (clica Your profile)
+- Vai até a página do usuário (clica -> Your profile)
 - Delay de 2 segundos para carregar toda informação da página
 - Tira um print da página (posição atual)
 - Tira um print de toda extensão da página
